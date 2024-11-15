@@ -12,6 +12,8 @@ import re
 
 # Inspiration from Arvin Zhuang Pair-wise
 
+os.environ['TRANSFORMERS_CACHE'] = '/mnt/netstore1_home/'
+os.environ['HF_HOME'] = '/mnt/netstore1_home/ellis.fitzgerald/HF'
 
 model_name = 'meta-llama/Llama-3.1-8B-Instruct'
 
